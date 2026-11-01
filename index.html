@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NAZKA Villea</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,700&family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<header>
+  <a class="brand" href="#top" aria-label="NAZKA Villea home"><img src="icon.png" alt=""><span>NAZKA <i>Villea</i></span></a>
+  <a class="hbtn on" href="#book">Book Now</a>
+  <button class="hbtn" id="mb" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav id="menu" aria-label="Main"></nav>
+</header>
+
+<main>
+  <div class="hero">
+    <img class="hlogo" src="logo.png" alt="NAZKA Villea, established 2026">
+    <p class="tag">Come for the <b>view</b>. <b>Stay</b> for the feeling.</p>
+    <p class="loc"><span>📍 Purok Rose (Tay-ak), Banganan, Aritao, Nueva Vizcaya</span>
+      <!-- MAP LINK: paste your exact Google Maps share link in the href below -->
+      <a href="https://www.google.com/maps/search/?api=1&query=Purok+Rose+Banganan+Aritao+Nueva+Vizcaya" target="_blank" rel="noopener">See more</a></p>
+    <div class="cta"><a class="btn" href="#room1">View Rooms</a><a class="btn ghost" href="#book">Book Now</a></div>
+    <a class="scroll" href="#room1">Scroll down to see our offers<span>⌄</span></a>
+  </div>
+  <div id="sections"></div>
+
+  <section id="book">
+    <p class="eyebrow">Book Now</p>
+    <h2>Reserve your stay</h2>
+    <!-- NOTE: this form only shows a success message. Connect it to email / Messenger / Google Sheets so bookings reach you. -->
+    <div class="bk">
+      <form id="bk" novalidate>
+        <div class="full"><label for="bname">Full name</label><input id="bname" placeholder="Name" autocomplete="name" required><span class="err"></span></div>
+        <div><label for="bphone">Phone</label><input id="bphone" type="tel" placeholder="Phone" autocomplete="tel" required><span class="err"></span></div>
+        <div><label for="bemail">Email</label><input id="bemail" type="email" placeholder="Email" autocomplete="email" required><span class="err"></span></div>
+        <div class="full"><label for="broom">Room / Package</label>
+          <select id="broom" required><option value="" disabled selected hidden>Select Room</option></select><span class="err"></span></div>
+        <div><label for="bin">Check in</label><input id="bin" type="date" required><span class="err"></span></div>
+        <div><label for="bout">Check out</label><input id="bout" type="date" required><span class="err"></span></div>
+        <div><label for="btime">Arrival time</label><input id="btime" type="time" required><span class="err"></span></div>
+        <div><label id="bpaxl">Guests (pax)</label>
+          <div class="pax" role="group" aria-labelledby="bpaxl"><button type="button" id="bminus" aria-label="Fewer guests">−</button><output id="bpax" aria-live="polite">2 guests</output><button type="button" id="bplus" aria-label="More guests">+</button></div></div>
+        <button class="btn bk-go" id="bgo" type="submit">Book Now</button>
+        <div class="bk-msg" id="bmsg" role="status" aria-live="polite">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2fc86b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>
+          <div><b>The form was sent successfully.</b><small id="bdetail"></small></div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="eyebrow">Contact Us</p>
+    <h2>Message us anytime</h2>
+    <!-- EDIT: put your real contact number, email and Facebook page below -->
+    <div class="contact">
+      <div class="c"><span>Contact number</span><p>+63 9XX XXX XXXX</p></div>
+      <div class="c"><span>Facebook / Messenger</span><p>For more inquiries message us on Facebook or Messenger<br> <a href="https://www.facebook.com/p/NAZKA-Villea-61593776460644/" target="_blank"> click here </a></p></div>
+      <div class="c"><span>Find us</span><p>Purok Rose (Tay-ak), Banganan, Aritao, Nueva Vizcaya</p><p><a href="https://www.google.com/maps/search/?api=1&query=Purok+Rose+Banganan+Aritao+Nueva+Vizcaya" target="_blank" rel="noopener">Open in Google Maps</a></p></div>
+      <div class="c"><span>Need directions?</span><p>Message us before your visit and we’ll send our exact Google Maps pin.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer><img src="logo.png" alt="NAZKA Villea"><br>© NAZKA Villea · Purok Rose (Tay-ak), Banganan, Aritao, Nueva Vizcaya</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
