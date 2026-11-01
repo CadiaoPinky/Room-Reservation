@@ -3,6 +3,6 @@ BSINTE 2C PROJECT - Room Reservation Website.
 [https://cadiaopinky.github.io/Villa/](https://cadiaopinky.github.io/Villa/)
 
 Members 
-Andrea Lorraine Buen 
-Cherry Mae Balangatan 
+Andrea Lorraine Buen,
+Cherry Mae Balangatan,
 Pinky Cadiao
