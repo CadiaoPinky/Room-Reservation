@@ -1,5 +1,4 @@
 :root{
-  color-scheme:light;
   --bg:#dad1b4; --card:#fffaf0; --text:#2c2a14; --muted:#5d583a; --line:rgba(44,42,20,.2);
   --accent:#56561c; --accent-ink:#ffffff; --chip:#ebe5cb; --head:#2c2913; --err:#b3153d;
   box-sizing:border-box;
