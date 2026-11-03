@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>NAZKA Villea</title>
+<title>NAZKA Villea | Private Resort &amp; Room Reservation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,700&family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -12,7 +12,6 @@
 
 <header>
   <a class="brand" href="#top" aria-label="NAZKA Villea home"><img src="icon.png" alt=""><span>NAZKA <i>Villea</i></span></a>
-  <a class="hbtn on" href="#book">Book Now</a>
   <button class="hbtn" id="mb" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
   <nav id="menu" aria-label="Main"></nav>
 </header>
@@ -23,8 +22,8 @@
     <p class="tag">Come for the <b>view</b>. <b>Stay</b> for the feeling.</p>
     <p class="loc"><span>📍 Purok Rose (Tay-ak), Banganan, Aritao, Nueva Vizcaya</span>
       <!-- MAP LINK: paste your exact Google Maps share link in the href below -->
-      <a href="https://www.google.com/maps/search/?api=1&query=Purok+Rose+Banganan+Aritao+Nueva+Vizcaya" target="_blank" rel="noopener">See more</a></p>
-    <div class="cta"><a class="btn" href="#room1">View Rooms</a><a class="btn ghost" href="#book">Book Now</a></div>
+      <a href="https://www.google.com/maps/place/NAZKA+Villea/@16.3063333,121.0465474,17z/data=!3m1!4b1!4m6!3m5!1s0x339057af3f168d83:0x21610cee47cc9bb!8m2!3d16.3063333!4d121.0465474!16s%2Fg%2F11nvv556j3?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">See more</a></p>
+    <div class="cta"><a class="btn ghost" href="#book">Book Now</a></div>
     <a class="scroll" href="#room1">Scroll down to see our offers<span>⌄</span></a>
   </div>
   <div id="sections"></div>
@@ -44,7 +43,7 @@
         <div><label for="bout">Check out</label><input id="bout" type="date" required><span class="err"></span></div>
         <div><label for="btime">Arrival time</label><input id="btime" type="time" required><span class="err"></span></div>
         <div><label id="bpaxl">Guests (pax)</label>
-          <div class="pax" role="group" aria-labelledby="bpaxl"><button type="button" id="bminus" aria-label="Fewer guests">−</button><output id="bpax" aria-live="polite">2 guests</output><button type="button" id="bplus" aria-label="More guests">+</button></div></div>
+          <div class="pax" role="group" aria-labelledby="bpaxl"><button type="button" id="bminus" aria-label="Fewer guests">−</button><output id="bpax" aria-live="polite">2 guests</output><button type="button" id="bplus" aria-label="More guests">+</button></div><small class="pax-hint" id="bhint" aria-live="polite"></small></div>
         <button class="btn bk-go" id="bgo" type="submit">Book Now</button>
         <div class="bk-msg" id="bmsg" role="status" aria-live="polite">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2fc86b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>
@@ -57,12 +56,11 @@
   <section id="contact">
     <p class="eyebrow">Contact Us</p>
     <h2>Message us anytime</h2>
-    <!-- EDIT: put your real contact number, email and Facebook page below -->
+    <!-- EDIT: replace the Instagram link below with your real Instagram; check the Messenger link -->
     <div class="contact">
-      <div class="c"><span>Contact number</span><p>+63 9XX XXX XXXX</p></div>
-      <div class="c"><span>Facebook / Messenger</span><p>For more inquiries message us on Facebook or Messenger<br> <a href="https://www.facebook.com/p/NAZKA-Villea-61593776460644/" target="_blank"> click here </a></p></div>
-      <div class="c"><span>Find us</span><p>Purok Rose (Tay-ak), Banganan, Aritao, Nueva Vizcaya</p><p><a href="https://www.google.com/maps/search/?api=1&query=Purok+Rose+Banganan+Aritao+Nueva+Vizcaya" target="_blank" rel="noopener">Open in Google Maps</a></p></div>
-      <div class="c"><span>Need directions?</span><p>Message us before your visit and we’ll send our exact Google Maps pin.</p></div>
+      <div class="c"><span>Facebook</span><p>Visit our page on Facebook <a href="https://www.facebook.com/p/NAZKA-Villea-61593776460644/" target="_blank" rel="noopener">NAZKA Villea</a></p></div>
+      <div class="c"><span>Messenger</span><p> For more inquiries message us on <a href="https://m.me/61593776460644" target="_blank" rel="noopener">Messenger</a></p></div>
+      <div class="c"><span>Instagram</span><p> Follow us on instagram <a href="https://www.instagram.com/nazka.villea/" target="_blank" rel="noopener">@nazka.villea</a></p></div>
     </div>
   </section>
 </main>
